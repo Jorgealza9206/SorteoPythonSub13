@@ -1,0 +1,92 @@
+Creame un codigo en python en donde dados, esta variable:
+
+grupos: {'A': ['China'], 'B': ['Australia'], 'C': ['Japón'], 'D': ['Irak'], 'E': ['Emiratos Árabes Unidos (H)'], 'F': ['Irán (H)'], 'G': ['Vietnam (H)'], 'H': ['Tailandia'], 'I': ['Indonesia'], 'J': ['Corea del Sur (H)']}
+
+Se desea asignar un pais de este bombo:
+
+bombo2: ['Yemen', 'Qatar', 'Kuwait', 'Omán', 'Malasia (H)', 'Siria', 'Bahrein', 'Arabia Saudita (H)', 'Palestina', 'Jordania']
+
+el bombo se va a sortear a fin que salga un país aleatorio, comenzando desde el grupo A hasta el grupo J, pueden haber saltos de grupo si se dan estas condiciones:
+
+1. Si el país del bombo que me sale termina en "(H)" debe encontrar un grupo donde el país no finalice en "(H)".
+
+2. Si el país que me sale no termina en "(H)" debe encontrar un grupo donde el país finalice en "(H)", si no lo encuentra puede asignarsele a donde esté el país que no finalice en "(H)", la longitud máxima de cada valor en el diccionario grupos debe ser de 2.
+
+Al final me debe retornar el diccionario grupos con dos países por grupo
+
+
+Haz una simulación de un torneo infantil sub 13, y de acuerdo a los criterios deportivos y futbolísticos en categorías infantiles, arma partidos entre estas naciones, entregame resultados y la tabla de posiciones final, oficiando de local Zambia:
+
+Grupo C
+Sudáfrica
+Madagascar
+Malaui
+Lesoto
+Seychelles
+
+
+Haz una simulación de una fase final sub 13, y de acuerdo a los criterios deportivos y futbolísticos en categorías infantiles, simulando a partir de las semifinales planteadas, resultados, una final planteada y el campeón de dicho certamen, oficiando de local Zambia:
+
+Sudáfrica vs Namibia
+Angola vs Zambia
+
+Haz un script de Python que haga esto: "Haz una simulación de un sorteo de un torneo europeo sub 13, en donde hay cuatro bombos de 4 países que se tienen que organizar en grupos de A al D, no pueden haber más de 4 equipos. El sorteo consiste en que primero se sortea el primer bombo, se saca el equipo y se va dejando en el grupo 1 (Aquí obligatoriamente hay que tener en cuenta que Uzbekistán está en la posición A1 por ser anfitriona), luego en el primer bombo se saca el segundo equipo que quedaría en el grupo 2 y así sucesivamente hasta el grupo 8. Luego se coge el bombo 2 y se hace exactamente lo mismo de los grupo del 1 al 8, hasta terminar con los bombos. Los bombos se reparten de la siguiente manera
+
+Bombo 1:
+
+Uzbekistán
+Irán
+Corea del Sur
+Japón	
+
+Bombo 2:
+
+Australia
+Emiratos Árabes Unidos
+China
+Irak
+
+Bombo 3:
+
+Malasia
+Tailandia
+Vietnam
+Siria
+
+Bombo 4:
+
+Jordania
+Qatar
+Tayikistán
+Indonesia"
+
+
+Marruecos
+Egipto
+Sierra Leona
+Senegal
+Costa de Marfil
+Ghana
+Nigeria
+Gabón
+Tanzania
+Kenia
+Sudáfrica
+Zambia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
